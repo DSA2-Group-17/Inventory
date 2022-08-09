@@ -1,4 +1,5 @@
 import java.util.*;
+
     public class Main{
         public static void main(String[]args){
             Scanner sc = new Scanner(System.in);
@@ -30,6 +31,8 @@ import java.util.*;
             q.queueDequeue();
             q.queueEnqueue(four);
             q.queueDequeue();
+
+            // Displaying Output after either enqueuing or de-queuing operations
 
             System.out.println("After adding the data elements, your queue looks like this  now :");
             q.queueDisplay();
