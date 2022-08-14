@@ -1,3 +1,4 @@
+package application;
 
 public class Queue {
     private static  int front, rear, capacity;
