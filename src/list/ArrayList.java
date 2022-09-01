@@ -12,6 +12,7 @@ public abstract class ArrayList<T> implements ListADT<T>, Iterable<T> {
     protected T[] list;
     protected int modCount;
 
+    
     /**
      * Creates an empty list using the default capacity.
      */
